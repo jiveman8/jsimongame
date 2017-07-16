@@ -1,0 +1,22 @@
+{
+  "name": "workspace",
+  "homepage": "https://github.com/jiveman8/jsimongame",
+  "authors": [
+    "jess888 <jess8882003@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0"
+  }
+}
