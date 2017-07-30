@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--<link rel="stylesheet" href="css/index.css" type="text/css" />-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css" />
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+
+
+    <!-- HTML content-->
+    <div class="container-fluid" id="content">
+
+        <div id="parent" class="row text-center">
+            <h1 class="text-primary text-center">Free Code Camp Simon Game</h1>
+            <div class="separator"></div>
+            <h1 id="input" class="text-primary text-center"></h1>
+
+            <div id = "panel">
+
+                <div class="row text-center">
+                    <button id="green" class="dark1"></button>
+                    <button id="red" class="dark2"></button>
+                </div>
+
+                <div class="row text-center">
+                    <h1 id="count">  </h1>
+                    <div class="jlogo">count</div>
+                       <div class="row text-center">
+                           <div class="col-xs-1 col-xs-offset-5">
+                             <button id="start" class="btn btn-block btn-primary">Start</button>
+                            </div>
+                            <div class="col-xs-1">
+                             <button id="strict" class="btn btn-block btn-danger">Strict</button>
+                             </div>
+                        </div>
+                    <div class="separator">
+                    <div class="row text-center">
+                       <div class="col-xs-1 col-xs-offset-5">
+                        <label class="OnOff"><input id ="off" type="radio" name="on-off"> Off</label>
+                        </div>
+                        <div class="col-xs-1">
+                        <label class="OnOff"><input id="on" type="radio" name="on-off"> On</label>
+                        </div>
+                  <!--       <button id="off" class="jbutton">off</button>
+                        <button id="on" class="jbutton">on</button> -->
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <button id="yellow" class="dark3"></button>
+                    <button id="blue" class="dark4"></button>
+                </div>
+
+                
+            </div>
+
+        </div>
+    </div>
+
+    <audio id="audio1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio4">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg">
+    </audio>
+
+
+ 
+
+
+   
+
+
+
+
+</body>
+</html>
